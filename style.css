@@ -1,163 +1,163 @@
+body {
+  overflow-x: hidden;
+}
 .nav {
-    background-color: rgba(27, 22, 39, 0.5);
-    height: 45px;
-    justify-content: center;
-    font-size: 18px;
-
+  background-color: rgba(27, 22, 39, 0.5);
+  height: 45px;
+  justify-content: center;
+  font-size: 18px;
 }
 
 .nav-item a {
-    color: white;
-    background-color: none;
+  color: white;
+  background-color: none;
 }
 
 .nav-item a:hover {
-    color: #ffa231;
-    outline: none;
+  color: #ffa231;
+  outline: none;
 }
 
 .title {
-    font-size: 60px;
-    margin-bottom: 15px;
+  font-size: 60px;
+  margin-bottom: 15px;
 }
 
 .intro-text {
-    font-size: 18px;
-
+  font-size: 18px;
 }
 
 .icon-link:hover svg {
-    color: #ffa231;
+  color: #ffa231;
 }
 
 .icon-link svg {
-    color: white;
-    width: 35px;
-    height: 35px;
-
+  color: white;
+  width: 35px;
+  height: 35px;
 }
 
 .resume-link svg {
-    margin-left: 7px;
+  margin-left: 7px;
 }
 
 .resume-link {
-    margin: 10px;
-    padding: 10px 15px 10px 15px;
-    border-style: solid;
-    border-color: white;
-    border-radius: 25px;
-    border-width: 3px;
-
+  margin: 10px;
+  padding: 10px 15px 10px 15px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 25px;
+  border-width: 3px;
 }
 
 .about-img {
-    /* margin: 50px 0px 25px 0px; */
-    width: 300px;
-    height: 250px;
-    border-color: #ffa231;
+  /* margin: 50px 0px 25px 0px; */
+  width: 300px;
+  height: 250px;
+  border-color: #ffa231;
 }
 
 .about-txt {
-    /* margin: 50px 0px 25px 0px; */
-    color: white;
-
+  /* margin: 50px 0px 25px 0px; */
+  color: white;
 }
 
 #about {
-    padding: 50px 10px 50px 10px;
-    background: rgb(11, 15, 26);
-    background: linear-gradient(90deg, rgba(11, 15, 26, 1) 0%, rgba(12, 16, 28, 1) 10%, rgba(12, 17, 29, 1) 20%, rgba(19, 18, 31, 1) 30%, rgba(28, 18, 31, 1) 40%, rgba(38, 17, 29, 1) 50%, rgba(33, 17, 30, 1) 60%, rgba(25, 18, 30, 1) 70%, rgba(18, 16, 29, 1) 80%, rgba(12, 14, 22, 1) 90%, rgba(12, 14, 22, 1) 100%);
-
+  padding: 50px 10px 50px 10px;
+  background: rgb(11, 15, 26);
+  background: linear-gradient(
+    90deg,
+    rgba(11, 15, 26, 1) 0%,
+    rgba(12, 16, 28, 1) 10%,
+    rgba(12, 17, 29, 1) 20%,
+    rgba(19, 18, 31, 1) 30%,
+    rgba(28, 18, 31, 1) 40%,
+    rgba(38, 17, 29, 1) 50%,
+    rgba(33, 17, 30, 1) 60%,
+    rgba(25, 18, 30, 1) 70%,
+    rgba(18, 16, 29, 1) 80%,
+    rgba(12, 14, 22, 1) 90%,
+    rgba(12, 14, 22, 1) 100%
+  );
 }
 
-
 #resume {
-    padding: 50px 10px 50px 10px;
-    color: black;
+  padding: 50px 10px 50px 10px;
+  color: black;
 }
 
 #resume a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
-
-
 #contact {
-    padding: 0px 10px 50px 10px;
-
+  padding: 0px 10px 50px 10px;
 }
 
 .title-contact {
-    font-size: 30px;
-
-
+  font-size: 30px;
 }
-.form{
-    margin: 0px;
+.form {
+  margin: 0px;
 }
 .icon-txt svg {
-    color: #191717;
-    width: 25px;
-    height: 25px;
-
+  color: #191717;
+  width: 25px;
+  height: 25px;
 }
 
 .icon-txt a:link,
 .icon-txt a:visited {
-    color: #191717;
-    text-decoration: none;
-    font-size: 18px;
+  color: #191717;
+  text-decoration: none;
+  font-size: 18px;
 }
 
 .icon-txt a:hover,
 .icon-txt svg:hover {
-    color: #ffa231;
-    text-decoration: none;
-    font-size: 18px;
+  color: #ffa231;
+  text-decoration: none;
+  font-size: 18px;
 }
 
 input[type="text"],
 textarea {
-    padding: 10px 10px 10px 20px;
-    margin-bottom: 15px;
-    border-radius: 25px;
-    height: 50px;
-    width: 100%;
-    background-color: #E8E8E8;
-    border: none;
-    outline: none;
-
+  padding: 10px 10px 10px 20px;
+  margin-bottom: 15px;
+  border-radius: 25px;
+  height: 50px;
+  width: 100%;
+  background-color: #e8e8e8;
+  border: none;
+  outline: none;
 }
 
 .button-submit {
-    margin-top: 15px;
-    border-radius: 25px;
-    border: 3px solid black;
-    background-color: rgba(11, 15, 26, 1);
-    border-color: #ffa231;
-    color: white;
-    padding: 10px 25px;
-    font-size: 16px;
-    cursor: pointer;
+  margin-top: 15px;
+  border-radius: 25px;
+  border: 3px solid black;
+  background-color: rgba(11, 15, 26, 1);
+  border-color: #ffa231;
+  color: white;
+  padding: 10px 25px;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 .button-submit:hover {
-    background-color: #ffa231;
-    color: white;
+  background-color: #ffa231;
+  color: white;
 }
 
 input:focus,
 textarea:focus {
-    outline: none !important;
-    border: 3px solid #ffa231;
-
+  outline: none !important;
+  border: 3px solid #ffa231;
 }
 
 footer {
-    height: 100px;
-    background-color: rgba(11, 15, 26, 1);
-    color: white;
-
+  height: 100px;
+  background-color: rgba(11, 15, 26, 1);
+  color: white;
 }
